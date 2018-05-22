@@ -6,7 +6,7 @@ def turn(board)
     index = input_to_index(input)
     valid = valid_move?(board, index)
   end
-
+  move(board, index)
 end
 def input_to_index(input)
   index = input.to_i - 1
