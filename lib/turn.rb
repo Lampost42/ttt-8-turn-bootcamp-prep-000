@@ -1,5 +1,6 @@
 def turn(board)
-  input = gets "Please enter 1-9:"
+  puts "Please enter 1-9:"
+  input = gets
 end
 def input_to_index(input)
   index = input.to_i - 1
