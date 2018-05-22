@@ -1,4 +1,4 @@
-def turn
+def turn(board)
   input = gets "Please enter 1-9:"
 end
 def input_to_index(input)
