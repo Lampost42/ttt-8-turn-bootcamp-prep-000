@@ -1,5 +1,5 @@
 def turn(board)
-  valid = FALSE
+  index = 10
   until valid_move?(board, index) == TRUE
     puts "Please enter 1-9:"
     input = gets
